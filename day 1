@@ -1,0 +1,15 @@
+2026.3.5,在github创建了新仓库，安装了git和vs code.以下为脚本记录。
+git clone https://github.com/efull34/Linux-Notes.git将本地文件克隆至仓库网址。
+git config --global user.name "efull"首次登录在引号内介绍自己的名字。
+git config --global user.email "邮箱@qq.com"首次登录在引号内输入邮箱。
+方向键向上为重复上一个命令。
+git config --global http.proxy http://127.0.0.1:7890网络异常时配置代理端口，后四位为代理端口号
+git config --global https.proxy http://127.0.0.1:7890再次输入端口号。
+code .直接打开vs code界面,.意思是打开。
+git add .打包这次改动。
+git commit -m "上传了第一篇测试笔记"这次改动的标签，引号内为标签名。
+git push推送到云端。
+——
+以下为纠错笔记。
+Shift + Insert 是绝大多数命令行终端通用的粘贴快捷键，用以应对win系统无法在终端复制粘贴的问题。
+VS Code 没有刷新环境变量环境时，首次安装git可能出现无法识别问题，此时直接重启软件。
