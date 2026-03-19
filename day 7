@@ -1,0 +1,11 @@
+3.19 systemctl命令相关内容与虚拟机网络配置掌握 以下为学习笔记
+systemctl start name 启动软件
+systemctl stop name 关闭软件
+systemctl restart name 重启软件
+systemctl status name 软件状态信息调取，下接6
+状态信息界面 active后绿色runing表示软件正常运行 无色dead代表软件未启动 红色failed表示软件故障 下接7
+loaded后enabled表示软件开机自启 disabled表示软件开机不自启 main pid后为进程号 下接8
+process后status=0表示服务正常 status=1&其他数字表示服务不正常
+
+nginx 网络反向代理软件 用于将访问的请求均匀分配给服务器
+关于nginx进程报错时的处理记录以及网络配置这部分内容较多 我会将它们与这几周的学习内容统一整理到一篇Markdown文章当中 文章完成后计划完全卸载virtualbox并重新部署一遍环境 并在下一篇笔记中整理部署过程中遗漏的知识
